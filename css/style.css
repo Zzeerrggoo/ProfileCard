@@ -6,9 +6,7 @@
 .card{
     --cardHeight: 400px;
     --cardWidth:  250px;
-
     font-family: Arial, Helvetica, sans-serif;
-
     height: var(--cardHeight);
     width: var(--cardWidth);
     text-align: center;
@@ -59,8 +57,27 @@
     font-size: 12.5px;
 }
 
+.cardFooter{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    border-top: 1px solid lightgray;
+    object-fit: cover;
+    overflow: hidden;
+}
 
+.cardFooter img{
+    width: 25px;
+}
 
+#Twit{
+    border-right: 0.5px solid lightgray;
+}
+
+#GitHub{
+    border-left: 0.5px solid lightgray;
+}
 
 
 
