@@ -4,7 +4,6 @@
 
 
 .card{
-
     --cardHeight: 400px;
     --cardWidth:  250px;
     height: var(--cardHeight);
@@ -13,13 +12,29 @@
     display: inline-block;
     border: 1px solid #666;
     border-radius: 15px;
-    background: white;
+    background: #f0f0f0;
     margin: 20vh 20vw ;
     overflow: hidden;
 }
 
 .purpleOne{
     height: 25%;
-    background: purple;
+    background: #7b507b;
+}
 
+.imageWrapper{
+    --image-height: 125px;
+    height: var(--image-height);
+    width: var(--image-height);
+    border-radius: 150%;
+    border: 1.5px solid white;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: -62.5px;
+}
+
+.imageWrapper > img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
 }
