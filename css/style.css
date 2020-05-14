@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 .card{
     --cardHeight: 400px;
     --cardWidth:  250px;
@@ -14,12 +13,12 @@
     border: 1px solid lightgray;
     border-radius: 15px;
     background: #f7f5f5;
-    margin: 20vh 20vw ;
     overflow: hidden;
 }
 
 .purpleOne{
-    height: 25%;
+    --pHeight: calc(var(--cardHeight)*0.25);
+    height: var(--pHeight);
     background: #7b507b;
 }
 
@@ -31,7 +30,7 @@
     border: 1.5px solid white;
     display: inline-block;
     overflow: hidden;
-    margin-top: -62.5px;
+    margin-top: -80px;
 }
 
 .imageWrapper > img{
@@ -40,35 +39,41 @@
     object-fit: cover;
 }
 
-.infoWrapper > h1{
+.contentWrapper{
+    --cwHeight: calc(var(--cardHeight)*0.65);
+    height: var(--cwHeight);
+    padding: 1em 1.5em 1.5em;
+}
+
+.contentWrapper > h1{
     color: #7b507b;
-    margin: 0.2em;
+    margin: 0.5em 0 0;
     font-size: 22px;
 }
 
-.infoWrapper > h2{
+.contentWrapper > h2{
     color: #9b699b;
-    margin-top: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
     font-size: 14px;
 }
 
-.infoWrapper >p{
-    margin: 1.5em;
+.contentWrapper >p{
     font-size: 12.5px;
 }
 
 .cardFooter{
-    padding: 10px;
     display: inline-block;
     text-align: center;
     width: 50%;
+    height: calc(var(--cardHeight)*0.10);
     border-top: 1px solid lightgray;
-    object-fit: cover;
     overflow: hidden;
 }
 
 .cardFooter img{
     width: 25px;
+    object-fit: cover;
 }
 
 #Twit{
