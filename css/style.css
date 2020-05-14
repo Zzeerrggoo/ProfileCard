@@ -15,5 +15,11 @@
     border-radius: 15px;
     background: white;
     margin: 20vh 20vw ;
+    overflow: hidden;
+}
+
+.purpleOne{
+    height: 25%;
+    background: purple;
 
 }
