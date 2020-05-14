@@ -6,13 +6,16 @@
 .card{
     --cardHeight: 400px;
     --cardWidth:  250px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
     height: var(--cardHeight);
     width: var(--cardWidth);
     text-align: center;
     display: inline-block;
-    border: 1px solid #666;
+    border: 1px solid lightgray;
     border-radius: 15px;
-    background: #f0f0f0;
+    background: #f7f5f5;
     margin: 20vh 20vw ;
     overflow: hidden;
 }
@@ -38,3 +41,32 @@
     height: inherit;
     object-fit: cover;
 }
+
+.infoWrapper > h1{
+    color: #7b507b;
+    margin: 0.2em;
+    font-size: 22px;
+}
+
+.infoWrapper > h2{
+    color: #9b699b;
+    margin-top: 1em;
+    font-size: 14px;
+}
+
+.infoWrapper >p{
+    margin: 1.5em;
+    font-size: 12.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
