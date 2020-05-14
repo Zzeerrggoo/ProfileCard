@@ -79,13 +79,10 @@
     object-fit: cover;
 }
 
-#Twit{
-    border-right: 0.5px solid lightgray;
+.cardFooter + .cardFooter{
+    border-left: 1px solid lightgray;
 }
 
-#GitHub{
-    border-left: 0.5px solid lightgray;
-}
 
 
 
