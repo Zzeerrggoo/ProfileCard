@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.card{
+
+    --cardHeight: 400px;
+    --cardWidth:  250px;
+    height: var(--cardHeight);
+    width: var(--cardWidth);
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #666;
+    border-radius: 15px;
+    background: white;
+    margin: 20vh 20vw ;
+
+}
